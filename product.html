@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="index.html">
+      <!--Tailwind_css_CND-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+   
+       <!--Navbar-->
+       <nav class="bg-blue-100 p-2 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li><a class="hover:underline hover:text-green-500" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-green-500" href="product.html" >Products</a></li>
+            <li><a class="hover:underline hover:text-green-500" href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!--Our product-->
+    <div class="text-center mt-5">
+        <h1 class="text-3xl font-bold">Our Products</h1>
+        <input type="text" placeholder="search for a product " class="border border-black p-2 m-5" style="width: 80%;">
+    </div>
+    <!--img grip-->
+    <section>
+        <div class="grid grid-cols-2 gap-1 md:grid-cols-4 mt-5 p-5">
+            <div>
+                <img src="./img/photo-1.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="img1">
+                <h1>Rose</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./img/photo-2.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="img1">
+                <h1>Lotus</h1>
+                <p>$23</p>
+            </div>
+            <div>
+                <img src="./img/photo-3.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="img1">
+                <h1>Sun Flower</h1>
+                <p>$19</p>
+            </div>
+            <div>
+                <img src="./img/photo-4.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="img1">
+                <h1>Flower</h1>
+                <p>$15</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-1 md:grid-cols-4 mt-5 p-5">
+            <div>
+                <img src="./img/photo-1.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="img1">
+                <h1>Rose</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./img/photo-2.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="img1">
+                <h1>Lotus</h1>
+                <p>$23</p>
+            </div>
+            <div>
+                <img src="./img/photo-3.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="img1">
+                <h1>Sun Flower</h1>
+                <p>$19</p>
+            </div>
+            <div>
+                <img src="./img/photo-4.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="img1">
+                <h1>Flower</h1>
+                <p>$15</p>
+            </div>
+        </div>
+    </section>
+     <!--Footer-->
+     <section class="bg-blue-100 p-2 justify-center flex flex-col gap-5">
+        <h1 class="font-bold text-3xl">Greenden</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, magnam.</p>
+        <p>&copy;2021 Greenden.com</p>
+    </section>
+</body>
+</html>
